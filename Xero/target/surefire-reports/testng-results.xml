@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgSuite" duration-ms="3109" started-at="2020-03-21T22:52:44 PDT" finished-at="2020-03-21T22:52:47 PDT">
+    <groups>
+    </groups>
+    <test name="chrome test" duration-ms="3109" started-at="2020-03-21T22:52:44 PDT" finished-at="2020-03-21T22:52:47 PDT">
+      <class name="Xero_Pack.Xero_Test">
+        <test-method status="PASS" signature="Initialize(java.lang.String)[pri:0, instance:Xero_Pack.Xero_Test@27efef64]" name="Initialize" is-config="true" duration-ms="1834" started-at="2020-03-21T22:52:44 PDT" finished-at="2020-03-21T22:52:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="TC_1_loginTOXero()[pri:0, instance:Xero_Pack.Xero_Test@27efef64]" name="TC_1_loginTOXero" duration-ms="949" started-at="2020-03-21T22:52:46 PDT" finished-at="2020-03-21T22:52:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_1_loginTOXero -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:Xero_Pack.Xero_Test@27efef64]" name="cleanup" is-config="true" duration-ms="303" started-at="2020-03-21T22:52:47 PDT" finished-at="2020-03-21T22:52:47 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- Xero_Pack.Xero_Test -->
+    </test> <!-- chrome test -->
+  </suite> <!-- TestNgSuite -->
+</testng-results>
