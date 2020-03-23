@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -102,7 +101,7 @@
                     <div class="method-list-content passed suite-TestNgSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNgSuite" title="Xero_Pack.Xero_Test" hash-for-method="TC_1_loginTOXero">TC_1_loginTOXero</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNgSuite" title="Xero_Pack.Xero_Test" hash-for-method="TC_ID_01_A_NavigateTOXero">TC_ID_01_A_NavigateTOXero</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNgSuite -->
@@ -125,9 +124,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TC_1_loginTOXero">
-                  </a> <!-- TC_1_loginTOXero -->
-                  <span class="method-name">TC_1_loginTOXero</span>
+                  <a name="TC_ID_01_A_NavigateTOXero">
+                  </a> <!-- TC_ID_01_A_NavigateTOXero -->
+                  <span class="method-name">TC_ID_01_A_NavigateTOXero</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,19 +134,19 @@
         </div> <!-- panel TestNgSuite -->
         <div panel-name="test-xml-TestNgSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/sandhya/Desktop/Oxyeclipse-workspace/Xero/Xero_TestNg.xml</span>
+            <span class="header-content">/Users/sandhya/git/XeroSR_old/Xero/Xero_TestNg.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TestNgSuite&quot;&gt;
-  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;chrome test&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;TestNgSuite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Xero_Pack.Xero_Test&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- chrome test --&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
 &lt;/suite&gt; &lt;!-- TestNgSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +158,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">chrome test (1 class)</span>
+                <span class="test-name">ChromeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,14 +186,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC_1_loginTOXero')
+data.setCell(0, 1, 'TC_ID_01_A_NavigateTOXero')
 data.setCell(0, 2, 'Xero_Pack.Xero_Test')
-data.setCell(0, 3, 949);
+data.setCell(0, 3, 14230);
 window.suiteTableData['TestNgSuite']= { tableData: data, tableDiv: 'times-div-TestNgSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 949 ms</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-TestNgSuite">
               </div> <!-- times-div-TestNgSuite -->
             </div> <!-- times-div -->
@@ -209,9 +208,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestNgSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Xero_Pack.Xero_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC_ID_02_A_SignupTOXero</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-TestNgSuite" class="panel">
@@ -226,12 +232,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">TC_1_loginTOXero</span>
-                <span class="method-start">1848 ms</span>
+                <span class="method-name">TC_ID_01_A_NavigateTOXero</span>
+                <span class="method-start">1963 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cleanup</span>
-                <span class="method-start">2801 ms</span>
+                <span class="method-start">16195 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNgSuite" duration-ms="16925" started-at="2020-03-22T20:53:07Z" finished-at="2020-03-22T20:53:24Z">
+  <suite name="TestNgSuite" duration-ms="6346" started-at="2020-03-23T15:25:23Z" finished-at="2020-03-23T15:25:30Z">
     <groups>
     </groups>
-    <test name="chrome test" duration-ms="16925" started-at="2020-03-22T20:53:07Z" finished-at="2020-03-22T20:53:24Z">
+    <test name="ChromeTest" duration-ms="6346" started-at="2020-03-23T15:25:23Z" finished-at="2020-03-23T15:25:30Z">
       <class name="Xero_Pack.Xero_Test">
-        <test-method status="PASS" signature="Initialize(java.lang.String)[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="Initialize" is-config="true" duration-ms="1773" started-at="2020-03-22T13:53:07Z" finished-at="2020-03-22T13:53:09Z">
+        <test-method status="PASS" signature="Initialize(java.lang.String)[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="Initialize" is-config="true" duration-ms="1821" started-at="2020-03-23T08:25:23Z" finished-at="2020-03-23T08:25:25Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initialize -->
-        <test-method status="PASS" signature="TC_ID_01_A_NavigateTOXero()[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="TC_ID_01_A_NavigateTOXero" duration-ms="14835" started-at="2020-03-22T13:53:09Z" finished-at="2020-03-22T13:53:24Z">
+        <test-method status="PASS" signature="TC_ID_01_D_ForgotPasswordTOXero()[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="TC_ID_01_D_ForgotPasswordTOXero" duration-ms="4199" started-at="2020-03-23T08:25:25Z" finished-at="2020-03-23T08:25:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_ID_01_A_NavigateTOXero -->
-        <test-method status="PASS" signature="cleanup()[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="cleanup" is-config="true" duration-ms="301" started-at="2020-03-22T13:53:24Z" finished-at="2020-03-22T13:53:24Z">
+        </test-method> <!-- TC_ID_01_D_ForgotPasswordTOXero -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:Xero_Pack.Xero_Test@68c4039c]" name="cleanup" is-config="true" duration-ms="314" started-at="2020-03-23T08:25:29Z" finished-at="2020-03-23T08:25:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
       </class> <!-- Xero_Pack.Xero_Test -->
-    </test> <!-- chrome test -->
+    </test> <!-- ChromeTest -->
   </suite> <!-- TestNgSuite -->
 </testng-results>

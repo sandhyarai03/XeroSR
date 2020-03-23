@@ -49,9 +49,9 @@ public class ReusableClass_Xero_Test {
 	
 	public static void EnterText(WebElement element, String text, String objName) {
 		if (element == null || !element.isDisplayed()) {
-			logger.log(LogStatus.ERROR, "First NAme TextBox not found");
+			logger.log(LogStatus.ERROR, "TextBox not found");
 		}else {
-			logger.log(LogStatus.INFO, "First NAme Entered");
+			logger.log(LogStatus.INFO, "Text Entered");
 			element.sendKeys(text);
 		}		
 	}
